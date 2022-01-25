@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+
+.modal {
+  width: 270px;
+  height: 50px;
+  color: cyan;
+  border: red solid 1px;
+  display: none;
+}
+button {
+  display: block;
+}
+
+img{
+  width: 30px;
+  height: 30px;
+}
