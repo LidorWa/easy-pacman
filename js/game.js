@@ -44,7 +44,6 @@ function buildBoard() {
             } else {
                 board[i][j] = FOOD;
                 gFoodCounter++;
-                console.log(gFoodCounter);
             }
         }
     }
