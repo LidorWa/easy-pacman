@@ -1,7 +1,7 @@
 'use strict'
 
 
-var PACMAN = '<img src="/images/pacmanleft.jpg" />';
+var PACMAN = '<img src="images/pacmanleft.jpg" />';
 
 var gPacman;
 
@@ -68,19 +68,19 @@ function getNextLocation(ev) {
 
     switch (ev.key) {
         case 'ArrowUp':
-            PACMAN = '<img src="/images/pacmanup.jpg" />'
+            PACMAN = '<img src="images/pacmanup.jpg" />'
             nextLocation.i--
             break;
         case 'ArrowDown':
-            PACMAN = '<img src="/images/pacmandown.jpg" />'
+            PACMAN = '<img src="images/pacmandown.jpg" />'
             nextLocation.i++
             break;
         case 'ArrowLeft':
-            PACMAN = '<img src="/images/pacmanleft.jpg" />'
+            PACMAN = '<img src="images/pacmanleft.jpg" />'
             nextLocation.j--
             break;
         case 'ArrowRight':
-            PACMAN = '<img src="/images/pacmanright.jpg" />'
+            PACMAN = '<img src="images/pacmanright.jpg" />'
             nextLocation.j++
             break;
         default: return null
