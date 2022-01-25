@@ -33,7 +33,6 @@ function movePacman(ev) {
     }
     if (nextCell === FOOD) {
         gFoodCounter--;
-        console.log(gFoodCounter);
         updateScore(1)
         if (gFoodCounter === 0) {
             isVictory = true;
